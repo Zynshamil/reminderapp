@@ -1,0 +1,20 @@
+
+
+<h1 style="color: whitesmoke; margin-left: 40%; margin-top: 3%;  "> Events </h1>
+
+<table style="width: 70%; margin-left: 10pc; margin-top: 2pc;" class="table table-striped">
+    <thead>
+        <tr>
+            <th class="table-light" style="color: rgb(8, 8, 8);">Date</th>
+            <th class="table-light" style="color: rgb(14, 13, 13);">Event</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let t of viewevent">
+            <th style="color: aliceblue;">{{t.date}}</th>
+            <th style="color: aliceblue;">{{t.description}}</th>
+        </tr>
+       
+    </tbody>
+
+
